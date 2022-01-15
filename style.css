@@ -2,9 +2,43 @@ body {
     background-color: gray;
 }
 
-textarea#message {
+p.keys {
     width: 600px;
-    height: 400px;
+    margin: 0px auto 10px auto;
+}
+
+div.key {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+    display: inline-block;
+}
+
+span.coded {
+    font-weight: bold;
+}
+
+textarea#message, #encodedTA {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    width: 800px;
+    height: 200px;
     margin: 0px auto 0px auto;
     display: block;
+}
+
+table#info {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+    width: 600px;
+    height: 100px;
+    margin: 0px auto 0px auto;
+    display: block;
+    font-size: 20px;
 }

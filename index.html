@@ -8,11 +8,28 @@
 </head>
 
 <body>
-    <textarea id="message" placeholder="Enter your secret message here."></textarea>
+    <textarea id="message" placeholder="Enter the secret message here. Click 'Encode Message' when you are ready for your friend to decode your message." oninput="updateRemainingCharacters(this)"></textarea>
+    <table id="info">
+        <tr><td>
+            <p>Characters available: <span id="remaining"></span></p>
+            <button onclick="encodeMessage()">Encode Message</button>
+        </td></tr>
+    </table>
+
+    <p class="keys"><span id="messageKey"></span></p>
+    <textarea id="encodedTA" placeholder=""></textarea>
 
     <script>
-
+        const messageMax = 350;
     </script>
+    <script src="script.js" type="text/javascript"></script>
 </body>
+
+<!--
+
+“Never go to bed mad. Stay up and fight.”
+― Phyllis Diller
+
+-->
 
 </html>
