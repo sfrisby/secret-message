@@ -1,0 +1,10 @@
+body {
+    background-color: gray;
+}
+
+textarea#message {
+    width: 600px;
+    height: 400px;
+    margin: 0px auto 0px auto;
+    display: block;
+}
